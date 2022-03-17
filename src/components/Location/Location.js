@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './Banner.module.css';
+import s from './Location.module.css';
 
-const Banner = () => {
+const Location = () => {
 
     return (
         <div className={s.modal}>
@@ -11,16 +11,16 @@ const Banner = () => {
                     <span>Dublin, Republic of Ireland</span>
                 </div>
                 <div>
-                    <img className={s.locImg} src={require(`../../imgs/logo.png`)}/>
+                    <img className={s.locImg} src={require(`../../imgs/logo.svg`)}/>
                 </div>
-                <div>
-                    <img className={s.iconImg} src={require(`../../imgs/icon1.svg`)}/>
-                    <img className={s.iconImg} src={require(`../../imgs/icon2.svg`)}/>
-                    <img className={s.iconImg} src={require(`../../imgs/icon3.svg`)}/>
+                <div className={s.iconBox}>
+                    <img className={s.iconImg1} src={require(`../../imgs/icon1.svg`)}/>
+                    <img className={s.iconImg2} src={require(`../../imgs/icon2.svg`)}/>
+                    <img className={s.iconImg3} src={require(`../../imgs/icon3.svg`)}/>
                 </div>
             </div>
         </div>
     )
 };
 
-export default Banner;
+export default Location;

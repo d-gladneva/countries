@@ -1,24 +1,25 @@
 import React from 'react';
-import s from './MyPosts.module.css'
+import s from './Post.module.css'
 
-const MyPosts = () => {
+const Post = (props) => {
     return (
-            <div className={s.content}>
-                my posts
-                <div>
-                <textarea></textarea>
-                <button>Add post</button>
-                </div>
-                <div className={s.item}>
-                    <img src='https://cdn.icon-icons.com/icons2/365/PNG/256/crab-icon_36987.png'/>
-                    new post
-                </div>
-                <div className={s.item}>new post</div>
-                <div className={s.item}>new post</div>
-                <div className={s.item}>new post</div>
-                <div className={s.item}>new post</div>
+        <div className={s.item}>
+            <div>
+            <img className={s.card} src={require(`../../../../imgs/card${props.id}.png`)}/>
             </div>
+            <img className={s.statusImg} src={require(`../../../../imgs/status${props.ip}.svg`)}/>
+            <img className={s.raiting} src={require(`../../../../imgs/rating1.svg`)}/>
+            <div>
+                <span className={s.name}>{props.name}</span>
+            </div>
+            <div>
+                <span className={s.desc}>{props.desc}</span>
+            </div>
+            <div>
+                <img className={s.price} src={require(`../../../../imgs/price1.svg`)}/>
+            </div>
+        </div>
     )
 };
 
-export default MyPosts;
+export default Post;

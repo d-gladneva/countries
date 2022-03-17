@@ -1,9 +1,11 @@
 .headerInfo {
     display: flex;
     flex-direction: column;
+    width: 29%;
 }
 
 .headerTitle{
+    font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 44px;
@@ -11,10 +13,12 @@
 }
 
 .headerText {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+    margin: 19px 0 32px;
 }
 
 .headerButton {
@@ -24,4 +28,49 @@
     border: 1px solid #D0D5DD;
     box-sizing: border-box;
     border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101828;
+}
+
+.headerButton:hover {
+    width: 141px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #7F56D9;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .headerTitle {
+        font-size: 35px;
+    }
+    .headerText {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headerInfo {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .headerTitle {
+        font-size: 29px;
+        line-height: 33px;
+    }
+    .headerInfo {
+        width: 80%;
+    }
+
+    .headerButton {
+        margin: 175px auto 0;
+    }
 }

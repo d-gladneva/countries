@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './HeaderInfo.module.css';
+import s from './BannerInfo.module.css';
 
-const HeaderInfo = () => {
+const BannerInfo = () => {
 
     return (
             <div className={s.headerInfo}>
@@ -12,4 +12,4 @@ const HeaderInfo = () => {
     )
 };
 
-export default HeaderInfo;
+export default BannerInfo;

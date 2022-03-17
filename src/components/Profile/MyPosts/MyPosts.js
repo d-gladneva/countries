@@ -1,26 +1,29 @@
 import React from 'react';
-import s from './Profile.module.css'
+import s from './MyPosts.module.css'
+import Post from "./Post/Post";
 
-const Profile = () => {
+const MyPosts = (props) => {
+
+    let postsElements = props.posts.map(p => <Post id={p.id} ip={p.ip} status={p.status} name={p.name} count={p.count}
+                                                   desc={p.desc}/>);
+
+    const addPost = () => {
+        props.addMessage();
+    };
+
     return (
-        <div className="content">
-            <div>
-                <img src="https://storge.pic2.me/c/1360x800/385/5e5e77f35275f.jpg"/>
-            </div>
-            <div>
-                <img src="https://files.gamebanana.com/img/ico/sprays/slipknotlogo.gif"/>
-            </div>
-            <div>
-                ava+description
-            </div>
+        <div className={s.item}>
             <div className={s.content}>
-                my posts
-                <div className={s.item}>new post</div>
-                <div className={s.item}>new post</div>
-                <div className={s.item}>new post</div>
+            </div>
+            <div className={s.item}>
+                <div className={s.buttonWrap}>
+                    <div className={s.buttonText}>You can add a product card by clicking on the button</div>
+                    <button className={s.button} onClick={addPost}>Add card</button>
+                </div>
+                {postsElements}
             </div>
         </div>
     )
 };
 
-export default Profile;
+export default MyPosts;

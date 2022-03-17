@@ -9,7 +9,7 @@ const Nav = () => {
                 <NavLink to='/profile' activeClassName={s.active}>Profile</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to='/dialogs' activeClassName={s.active}>Dialogs</NavLink>
+                <NavLink to='/discover' activeClassName={s.active}>Discover</NavLink>
             </div>
             <div className={s.item}>
                 <NavLink to='/news' activeClassName={s.active}>News</NavLink>

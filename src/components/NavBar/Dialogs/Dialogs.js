@@ -1,13 +1,13 @@
 import React from 'react';
-import s from './Discover.module.css'
+import s from './Dialogs.module.css'
 
-const Discover = () => {
+const Dialogs = () => {
 
     return (
-        <div className={s.discover}>
+        <div className={s.dialogs}>
             Discover
         </div>
     )
 };
 
-export default Discover;
+export default Dialogs;

@@ -3,7 +3,9 @@ import s from './Header.module.css';
 
 const Header = () => {
     return <header className={s.header}>
-        <img src="https://i.pinimg.com/originals/b1/de/b4/b1deb4ec8d7e3f2aff6913ae032c3546.png" />
+        <img className={s.leftArrHeader} src={require(`../../imgs/leftArrHeader.svg`)}/>
+        <span>Refer a friend and get $10 off! 🔥 Offer ends February 27!</span>
+        <img className={s.rightArrHeader} src={require(`../../imgs/rightArrHeader.svg`)}/>
     </header>
 };
 
