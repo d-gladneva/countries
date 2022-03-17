@@ -1,0 +1,36 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: purple;
+    height: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper div {
+    width: 300px;
+    display: flex;
+}
+
+.location span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+    cursor: default;
+    margin-left: 12px;
+}
+
+.location span:hover {
+   color: #7F56D9;
+}
+
+.iconImg {
+    width: 16px;
+    height: 16px;
+    margin-right: 45px;
+}

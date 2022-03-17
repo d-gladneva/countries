@@ -1,0 +1,27 @@
+.headerInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerTitle{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.headerText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.headerButton {
+    width: 141px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
