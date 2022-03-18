@@ -1,8 +1,8 @@
 .headerInfo {
     display: flex;
     flex-direction: column;
-    width: 29%;
-    margin-top: 30px;
+    width: 32%;
+    margin-top: 94px;
 }
 
 .headerTitle{
@@ -46,20 +46,37 @@
     color: #7F56D9;
 }
 
+@media screen and (max-width: 1200px) {
+
+    .headerInfo {
+        display: flex;
+        flex-direction: column;
+        width: 32%;
+        margin-top: 30px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .headerTitle {
-        font-size: 35px;
+        font-size: 26px;
+        line-height: 29px;
     }
     .headerText {
         font-size: 14px;
+        margin: 17px 0 22px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .headerInfo {
         width: 45%;
+        margin-top: 12px
     }
+    .headerTitle {
+        font-size: 26px;
+        line-height: 23px;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
@@ -68,10 +85,11 @@
         line-height: 33px;
     }
     .headerInfo {
-        width: 80%;
+        /*width: 80%;*/
     }
 
     .headerButton {
         margin: 175px auto 0;
     }
+
 }

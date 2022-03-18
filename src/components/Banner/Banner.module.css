@@ -10,13 +10,20 @@
 
 .banner {
     width: 90%;
-    height: 366px;
+    height: 483px;
     margin: auto;
     background-image: url("../../imgs/banner.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 72px 0 0 72px;
+    padding: 33px 0 0 72px;
 }
+
+@media screen and (max-width: 1070px) {
+    .banner {
+        padding: 18px 0 0 45px;
+    }
+}
+
 
 @media screen and (max-width: 1024px) {
     .banner {
@@ -31,6 +38,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         padding: 6px 0 0 45px;
+        min-width: 524px;
     }
 }
 
