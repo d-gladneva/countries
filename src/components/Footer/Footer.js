@@ -11,7 +11,7 @@ const Footer = () => {
                     <span>We’ll send you a nice letter one per week. No spam.</span>
                 </div>
                 <div className={s.inputBox}>
-                <input className={s.firstLineInput}></input>
+                <input placeholder="Enter email" className={s.firstLineInput}></input>
                 <button className={s.footerSubscribe}><span>Subscribe</span></button>
                 </div>
             </div>
@@ -21,44 +21,41 @@ const Footer = () => {
                 <span className={s.footerCategoriesTitle}>Categories</span>
                 <ul>
                     <li>Strategy</li>
-                    <li>Strategy</li>
-                    <li>Strategy</li>
-                    <li>Strategy</li>
-                    <li>Strategy</li>
-                    <li>Strategy</li>
+                    <li>Action</li>
+                    <li>Shooter</li>
+                    <li>Card Game</li>
+                    <li>Simulator</li>
+                    <li>RPG</li>
+                    <li>Multiplayer</li>
                 </ul>
                 </div>
                 <div>
-                    <span>Categories</span>
+                    <span>Company</span>
                     <ul>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
+                        <li>Multiplayer</li>
+                        <li>Careers</li>
+                        <li>Press</li>
+                        <li>News</li>
+                        <li>Contact</li>
                     </ul>
                 </div>
                 <div>
-                    <span>Categories</span>
+                    <span>Legal</span>
                     <ul>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
+                        <li>Terms</li>
+                        <li>Privacy</li>
+                        <li>Cookies</li>
+                        <li>Licenses</li>
+                        <li>Settings</li>
                     </ul>
                 </div>
                 <div>
-                    <span>Categories</span>
+                    <span>Legal</span>
                     <ul>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
-                        <li>Strategy</li>
+                        <li>Twitter</li>
+                        <li>Facebook</li>
+                        <li>Dribbble</li>
+                        <li>GitHub</li>
                     </ul>
                 </div>
             </div>

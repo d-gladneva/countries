@@ -6,20 +6,36 @@ const Nav = () => {
     return (
         <nav className={s.nav}>
             <div className={s.item}>
-                <NavLink to='/profile' activeClassName={s.active}>Profile</NavLink>
+                <NavLink to='/profile' activeClassName={s.active}>Discover</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to='/discover' activeClassName={s.active}>Discover</NavLink>
+                <NavLink to='/browse' activeClassName={s.active}>Browse</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to='/news' activeClassName={s.active}>News</NavLink>
+                <NavLink to='/store' activeClassName={s.active}>Store</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to='/music' activeClassName={s.active}>Music</NavLink>
+                <NavLink to='/platforms' activeClassName={s.active}>Platforms</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to='/settings' activeClassName={s.active}>Settings</NavLink>
+                <NavLink to='/releases' activeClassName={s.active}>Releases</NavLink>
             </div>
+            <div className={s.item}>
+                <NavLink to='/Mobile' activeClassName={s.active}>Mobile</NavLink>
+            </div>
+            <div className={s.item}>
+                <NavLink to='/Articles' activeClassName={s.active}>Articles</NavLink>
+            </div>
+            <div className={s.item}>
+                <NavLink to='/Blog' activeClassName={s.active}>Blog</NavLink>
+            </div>
+            <div className={s.item}>
+                <NavLink to='/News' activeClassName={s.active}>News</NavLink>
+            </div>
+            <div className={s.item}>
+                <NavLink to='/Contacts' activeClassName={s.active}>Contacts</NavLink>
+            </div>
+
         </nav>
     )
 };

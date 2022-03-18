@@ -16,6 +16,7 @@ import Filtres from "./components/Filtres/Filtres";
 import Pagination from "./components/Pagination/Pagination";
 import Banner from "./components/Banner/Banner";
 import SubNav from "./components/SubNav/SubNav";
+import Menu from "./components/Menu/Menu";
 
 
 const App = (props) => {
@@ -41,6 +42,7 @@ const App = (props) => {
                 <Faq/>
                 <Footer/>
             </div>
+            <Menu/>
         </BrowserRouter>
     )
         ;

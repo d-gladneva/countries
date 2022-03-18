@@ -15,6 +15,9 @@
 
 .item {
     width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
 }
 
 .item a {

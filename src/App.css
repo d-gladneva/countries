@@ -1,6 +1,10 @@
+body {
+    position: relative;
+}
 .app-wrapper {
     margin: 0 auto;
     max-width: 1200px;
+    overflow: hidden;
 }
 
 .app-wrapper-content {

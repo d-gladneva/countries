@@ -40,12 +40,15 @@ hr {
 
 .inputBox {
     height: 44px;
+    width: 50%;
 }
 
 .firstLineInput {
-    width: 350px;
+    padding: 0 20px;
+    width: 60%;
     height: 100%;
     border-radius: 8px;
+    border: navajowhite;
 }
 
 .footerSubscribe {
@@ -54,6 +57,11 @@ hr {
     background: #7F56D9;
     border-radius: 8px;
     margin-left: 8px;
+    border: navajowhite;
+}
+
+.footerSubscribe:hover {
+    background: #6941C6;
 }
 
 .footerSubscribe span {
@@ -120,7 +128,7 @@ hr {
     }
 
     .firstLineInput {
-        width: 100%;
+        width: 87%;
         margin-bottom: 8px;
     }
     .footerSubscribe {
@@ -130,5 +138,17 @@ hr {
 
     hr {
         margin: 66px 0 30px;
+    }
+
+    .firstLineInput {
+        padding-left: 10px;
+    }
+
+    .inputBox {
+        width: 100%;
+    }
+
+    .footerSubscribe {
+        margin-left: unset;
     }
 }
