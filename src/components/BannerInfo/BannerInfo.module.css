@@ -65,6 +65,11 @@
         font-size: 14px;
         margin: 17px 0 22px;
     }
+
+    .headerInfo {
+        margin-top: 78px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {

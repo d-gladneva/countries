@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <nav className={s.nav}>
             <div className={s.item}>
-                <NavLink to='/profile' activeClassName={s.active}>Discover</NavLink>
+                <NavLink to='/discover' activeClassName={s.active}>Discover</NavLink>
             </div>
             <div className={s.item}>
                 <NavLink to='/browse' activeClassName={s.active}>Browse</NavLink>
@@ -21,19 +21,19 @@ const Nav = () => {
                 <NavLink to='/releases' activeClassName={s.active}>Releases</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to='/Mobile' activeClassName={s.active}>Mobile</NavLink>
+                <NavLink to='/mobile' activeClassName={s.active}>Mobile</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to='/Articles' activeClassName={s.active}>Articles</NavLink>
+                <NavLink to='/articles' activeClassName={s.active}>Articles</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to='/Blog' activeClassName={s.active}>Blog</NavLink>
+                <NavLink to='/blog' activeClassName={s.active}>Blog</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to='/News' activeClassName={s.active}>News</NavLink>
+                <NavLink to='/news' activeClassName={s.active}>News</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to='/Contacts' activeClassName={s.active}>Contacts</NavLink>
+                <NavLink to='/contacts' activeClassName={s.active}>Contacts</NavLink>
             </div>
 
         </nav>

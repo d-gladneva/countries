@@ -27,3 +27,11 @@
 .leftArrHeader {
     left: 14px;
 }
+
+@media screen and (max-width: 560px) {
+    .header {
+        font-size: 13px;
+        line-height: 17px;
+        padding: 0 20px;
+    }
+}

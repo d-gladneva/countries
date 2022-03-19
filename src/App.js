@@ -2,16 +2,16 @@ import React from 'react';
 import './App.css';
 import Header from "./components/Header/Header";
 import Nav from "./components/NavBar/Nav";
-import Profile from "./components/Profile/Profile";
+import Discover from "./components/Listing/Discover";
 import {BrowserRouter, Route} from "react-router-dom";
 import Location from "./components/Location/Location";
 import Search from "./components/Search/Search";
 import Footer from "./components/Footer/Footer";
 import Faq from "./components/FAQ/faq";
-import News from "./components/NavBar/News/News";
-import Music from "./components/NavBar/Music/Music";
-import Settings from "./components/NavBar/Settings/Settings";
-import dialogs from "./components/NavBar/Dialogs/Dialogs";
+import Store from "./components/NavBar/Store/Store";
+import Browse from "./components/NavBar/Browse/Browse";
+import Platforms from "./components/NavBar/Platforms/Platforms";
+import dialogs from "./components/NavBar/Discover/Discover";
 import Filtres from "./components/Filtres/Filtres";
 import Pagination from "./components/Pagination/Pagination";
 import Banner from "./components/Banner/Banner";
@@ -33,10 +33,10 @@ const App = (props) => {
                 <Filtres/>
                 <div className="app-wrapper-content">
                     <Route path="/dialogs" component={dialogs}/>
-                    <Route path="/profile" render={() => <Profile state={props.state.profilePage} addMessage={props.addMessage}/>}/>
-                    <Route path="/news" component={News}/>
-                    <Route path="/music" component={Music}/>
-                    <Route path="/settings" component={Settings}/>
+                    <Route path="/discover" render={() => <Discover state={props.state.profilePage} addMessage={props.addMessage}/>}/>
+                    <Route path="/news" component={Store}/>
+                    <Route path="/music" component={Browse}/>
+                    <Route path="/settings" component={Platforms}/>
                 </div>
                 <Pagination/>
                 <Faq/>

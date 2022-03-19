@@ -57,8 +57,8 @@
     margin-right: 45px;
 }
 
-@media screen and (max-width: 320px) {
-    .location span, .iconBox img {
+@media screen and (max-width: 560px) {
+    .location span, .location img, .iconBox img {
         display: none;
     }
     .wrapper div {
