@@ -1,35 +1,56 @@
-.filtresWrap {
-    /*background: #F9F5FF;*/
-}
-
-.filtres {
+.chipsBox {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 98%;
+    width: 85%;
     margin: auto;
 }
 
-.filtres div {
-    padding: 10px 16px;
-    background: #F4EBFF;
-    border-radius: 8px;
-    color: #7F56D9;
-    margin: 77px 8px 40px 0;
+.chipBox_filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    background: #F0F0F0;
+    border-radius: 18px;
+    border: none;
+    margin: 24px 8px 10px 0;
+    cursor: pointer;
+    padding: 4px 24px;
 }
 
-.filtres div:hover {
-    background: #E9D7FE;
+.chipBox_filter:hover {
     cursor: default;
 }
 
-
-.filtres a {
-
+.chipBox_filter:active {
+    background: #EB6012;
+    cursor: default;
+    color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px) {
-    .filtres div {
-        margin: 134px 8px 11px 0;
-    }
+.chipsBox_text__active {
+    background: #EB6012;
 }
+
+.chipsBox_text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #434343;
+}
+
+.chipBox_filter__active {
+    background: #EB6012;
+    color: #FFFFFF;
+}
+
+.chipBox_filter__active span {
+    background: #EB6012;
+    color: #FFFFFF;
+}
+

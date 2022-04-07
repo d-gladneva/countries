@@ -1,19 +1,35 @@
-import React from 'react';
-import s from './Filtres.module.css';
+import React, {useState} from 'react';
+import './Chips.css';
+import TextInput from "../TextInput/TextInput";
 
-const Filtres = () => {
+const Chips = () => {
+
+    const [state, setState] = useState([
+        {id: 0, status: true, name: 'Пляжи'},
+        {id: 1, status: false, name: 'Breezzor Pass'},
+        {id: 3, status: false, name: 'Впечатления'},
+        {id: 4, status: false, name: 'Маршруты'}
+    ]);
+
+    const chooseItem = (id) => {
+        const newArr = state.map((item) =>
+            item.id === id ? {...item, status: true} : {...item, status: false}
+        );
+        setState(newArr);
+    };
 
     return (
-        <div className={s.filtresWrap}>
-        <div className={s.filtres}>
-            <div><span>Strategy X</span></div>
-            <div><span>RPG X</span></div>
-            <div><span>Action X</span></div>
-            <div><span>Shooter X</span></div>
-            <div><span>Clear all X</span></div>
-        </div>
+        <div className="chipsWrap">
+            <div className="chipsBox">
+                {state.map((item) => (
+                    <button className={item.status ? "chipBox_filter chipBox_filter__active" : "chipBox_filter"}
+                            onClick={() => chooseItem(item.id)}><span className="chipsBox_text">{item.name}</span>
+                    </button>
+                ))}
+            </div>
+            <TextInput/>
         </div>
     )
 };
 
-export default Filtres;
+export default Chips;

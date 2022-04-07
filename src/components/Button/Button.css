@@ -1,37 +1,38 @@
-.header {
-    position: relative;
-    background: #7F56D9;
+.buttonWrapper {
     height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+    width: 92.5%;
+}
+
+.buttonWrapper_btn1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
-    margin: 8px;
-    color: #fff;
-    text-align: center;
+    border-radius: 4px;
+    height: 100%;
+    border: none;
+    margin-left: 16px;
+    padding: 8px 24px;
+}
+
+.buttonWrapper_span {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 24px;
+    text-align: center;
+    color: #262626;
 }
 
-.header img {
-    width: 9px;
-    position: absolute;
+.buttonWrapper_button__active {
+    background: #0468FF;
 }
 
-.rightArrHeader {
-    right: 14px;
+.buttonWrapper_button__active span {
+    color: #fff;
 }
 
-.leftArrHeader {
-    left: 14px;
-}
 
-@media screen and (max-width: 560px) {
-    .header {
-        font-size: 13px;
-        line-height: 17px;
-        padding: 0 20px;
-    }
-}

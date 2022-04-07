@@ -1,27 +1,20 @@
 @font-face {
-    font-family: "Inter";
-    src: url("/src/fonts/inter/Inter-Regular.woff2")
+    font-family: "Roboto";
+    src: url("/src/fonts/roboto/Roboto.woff2")
     format("woff2"),
-    url("/src/fonts/inter/Inter-Regular.woff")
+    url("/src/fonts/roboto/Roboto.woff")
     format("woff");
 }
 
-
-body {
-    position: relative;
-}
-.app-wrapper {
-    margin: 0 auto;
-    max-width: 1200px;
-    overflow: hidden;
+@font-face {
+    font-family: "Montserrat";
+    src: url("/src/fonts/montserrat/montserrat.woff2")
+    format("woff2"),
+    url("/src/fonts/montserrat/montserrat.woff")
+    format("woff");
 }
 
-.app-wrapper-content {
-    background: #F9F5FF;
+* {
+    outline: 0 !important;
 }
 
-@media screen and (max-width: 320px) {
-    .app-wrapper {
-        overflow: hidden;
-    }
-}
