@@ -1,4 +1,4 @@
-.chipsBox {
+.chips_box {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -6,7 +6,7 @@
     margin: auto;
 }
 
-.chipBox_filter {
+.chips_box__filter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,26 +14,26 @@
     background: #F0F0F0;
     border-radius: 18px;
     border: none;
-    margin: 24px 8px 10px 0;
+    margin: 24px 16px 16px 0;
     cursor: pointer;
     padding: 4px 24px;
 }
 
-.chipBox_filter:hover {
+.chips_box__filter:hover {
     cursor: default;
 }
 
-.chipBox_filter:active {
+.chips_box__filter:active {
     background: #EB6012;
     cursor: default;
     color: #FFFFFF;
 }
 
-.chipsBox_text__active {
+.chips_box__text-active {
     background: #EB6012;
 }
 
-.chipsBox_text {
+.chips_box__text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -44,12 +44,12 @@
     color: #434343;
 }
 
-.chipBox_filter__active {
+.chips_box__filter-active {
     background: #EB6012;
     color: #FFFFFF;
 }
 
-.chipBox_filter__active span {
+.chips_box__filter-active span {
     background: #EB6012;
     color: #FFFFFF;
 }

@@ -3,9 +3,12 @@ import './TextInput.css';
 
 const TextInput = () => {
 
+
+
     return (
-        <div className="text_input__wrap">
-            <input className="subnav_input" type="search" placeholder='Поиск по стране, региону, городу, название пляжа'/>
+        <div className="textInput_wrap">
+            <input className="textInput_input" type="search"
+                   placeholder='Поиск по стране, региону, городу, название пляжа'/>
         </div>
     )
 };

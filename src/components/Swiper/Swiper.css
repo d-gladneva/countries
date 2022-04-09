@@ -1,8 +1,9 @@
 .SwiperWrapper {
     max-width: 1260px;
+    margin: 0 auto;
 }
 
-.SwiperWrapperInfo {
+.SwiperWrapper_info {
     width: 60%;
     margin: 167px auto 22px;
     min-width: 601px;
@@ -19,33 +20,41 @@
     background-repeat: no-repeat;
     filter: brightness(.5);
     height: 656px;
+    width: 1280px;
+    margin: 0 auto;
 }
 
 .SwiperWrapper_caption {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 38px;
+    width: 87%;
+    font-size: 41px;
     line-height: 51px;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.5px;
     color: #FFFFFF;
-    width: 83%;
     margin: auto;
     margin-bottom: 16px;
 }
 
-.SwiperWrapper_hr {
-    color: #fff;
+.SwiperWrapper_line {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, #FFFFFF 51.04%, rgba(255, 255, 255, 0.1) 100%);
     width: 87%;
+    height: 2px;
+    margin: 16px auto 12px;
 }
 
 .SwiperWrapper_p {
     color: #fff;
     text-align: center;
-    margin-top: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
 }
 
 .SwiperWrapper_slide {

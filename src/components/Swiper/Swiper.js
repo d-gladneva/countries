@@ -10,11 +10,11 @@ const SimpleSwiper = () => {
     return (
         <div className="SwiperWrapper">
             <div className="SwiperWrapper_bg"></div>
-            <div className="SwiperWrapperInfo">
+            <div className="SwiperWrapper_info">
                 <h1 className="SwiperWrapper_caption">Сент_Винсент и Гренадины</h1>
                 <Swiper
                     modules={[Navigation]}
-                    spaceBetween={10}
+                    spaceBetween={28}
                     slidesPerView={5}
                     navigation
                     onSlideChange={() => console.log('slide change')}
@@ -25,15 +25,12 @@ const SimpleSwiper = () => {
                     <SwiperSlide>Сент Винсент и Гренадины</SwiperSlide>
                     <SwiperSlide>Португалия</SwiperSlide>
                     <SwiperSlide>Саудовская Аравия</SwiperSlide>
-                    <SwiperSlide>Италия</SwiperSlide>
-                    <SwiperSlide>Германия</SwiperSlide>
-                    <SwiperSlide>Чехия</SwiperSlide>
-                    <SwiperSlide>Швейцария</SwiperSlide>
-                    <SwiperSlide>Италия</SwiperSlide>
-                    <SwiperSlide>Германия</SwiperSlide>
-                    ...
+                    <SwiperSlide>Франция</SwiperSlide>
+                    <SwiperSlide>Сент Винсент и Гренадины</SwiperSlide>
+                    <SwiperSlide>Португалия</SwiperSlide>
+                    <SwiperSlide>Саудовская Аравия</SwiperSlide>
                 </Swiper>
-                <hr className="SwiperWrapper_hr"/>
+                <div className="SwiperWrapper_line"></div>
                 <p className="SwiperWrapper_p">Мир Breezzor огромный, исследуй его!</p>
                 <Chips/>
                 <Button/>
