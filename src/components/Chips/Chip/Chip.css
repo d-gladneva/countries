@@ -19,6 +19,10 @@
     padding: 4px 24px;
 }
 
+.chips_box__filter:hover:not(.chips_box__filter-active) {
+    background: #434343;
+}
+
 .chips_box__text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -30,19 +34,13 @@
     color: #434343;
 }
 
-.chips_box__filter-active span, .chips_box__filter:hover span {
-    color: #FFFFFF;
-}
-
-.chips_box__filter:hover {
-    background: #FB9155;
-}
 .chips_box__filter-active {
     background: #EB6012;
     color: #FFFFFF;
 }
 
-.chips_box__filter-active:hover {
-    background: #CB540F;
+.chips_box__filter-active span {
+    background: #EB6012;
+    color: #FFFFFF;
 }
 
