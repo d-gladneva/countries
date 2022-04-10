@@ -17,7 +17,7 @@ const SimpleSwiper = () => {
         return <div className="swiper_button__prev swiper-button-prev" onClick={() => swiper.slidePrev()}/>;
     };
     return (
-        <div className="SwiperWrapper">
+        <div className="SwiperWrapper">пше
             <div className="SwiperWrapper_bg"/>
             <div className="SwiperWrapper_info">
                 <h1 className="SwiperWrapper_caption">Сент_Винсент и Гренадины</h1>
