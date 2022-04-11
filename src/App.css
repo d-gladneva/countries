@@ -8,9 +8,9 @@
 
 @font-face {
     font-family: "Montserrat";
-    src: url("/src/fonts/montserrat/montserrat.woff2")
+    src: url("/src/fonts/montserrat/montserratlight.woff2")
     format("woff2"),
-    url("/src/fonts/montserrat/montserrat.woff")
+    url("/src/fonts/montserrat/montserratlight.woff")
     format("woff");
 }
 
@@ -20,4 +20,59 @@
 
 button {
     cursor: pointer;
+}
+
+.app {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.app_inner {
+    width: 60%;
+    margin: 167px auto 22px;
+    min-width: 601px;
+    position: relative;
+}
+
+.app_bg {
+    position: absolute;
+    z-index: -1;
+    left: -10px;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-image: url("imgs/bg.png");
+    background-repeat: no-repeat;
+    filter: brightness(.5);
+    height: 656px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.app_divider {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, #FFFFFF 51.04%, rgba(255, 255, 255, 0.1) 100%);
+    width: 87%;
+    height: 2px;
+    margin: 16px auto 12px;
+}
+
+.app_buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+    width: 92.5%;
+}
+
+.app_buttons > * {
+    margin-right: 16px;
+}
+
+.app_buttons > *:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1300px ) {
+    .SwiperWrapper_caption {
+        width: 83%;
+    }
 }

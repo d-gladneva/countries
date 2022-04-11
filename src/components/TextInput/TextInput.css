@@ -1,4 +1,4 @@
-.textInput_wrap {
+.input__wrap {
     display: flex;
     flex-direction: row;
     height: 40px;
@@ -6,7 +6,7 @@
     margin: auto;
 }
 
-.textInput_input {
+.input__text {
     background-image: url('../../imgs/vector.svg');
     background-repeat: no-repeat;
     background-position: right 12px bottom 45%;

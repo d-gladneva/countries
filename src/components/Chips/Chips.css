@@ -1,48 +1,8 @@
-.chips_box {
+.chips {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 85%;
     margin: auto;
-}
-
-.chips_box__filter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 32px;
-    background: #F0F0F0;
-    border-radius: 18px;
-    border: none;
-    margin: 24px 16px 16px 0;
-    cursor: pointer;
-    padding: 4px 24px;
-}
-
-.chips_box__text {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: #434343;
-}
-
-.chips_box__filter-active span, .chips_box__filter:hover span {
-    color: #FFFFFF;
-}
-
-.chips_box__filter:hover {
-    background: #FB9155;
-}
-.chips_box__filter-active {
-    background: #EB6012;
-    color: #FFFFFF;
-}
-
-.chips_box__filter-active:hover {
-    background: #CB540F;
 }
 

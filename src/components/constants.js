@@ -5,27 +5,22 @@ export const CHIPS_KEY = {
     ROUTES:"ROUTES"
 }
 
-export const BUTTON_KEY = {
-    MAP:"На карте",
-    ALL_BEACHES: "Все пляжи страны",
-}
-
 export const chips = [
     {
         id: CHIPS_KEY.BEACHES,
-        text: "Пляжи"
+        title: "Пляжи"
     },
     {
         id: CHIPS_KEY.BREEZZOR_PASS,
-        text: "Breezzor Pass"
+        title: "Breezzor Pass"
     },
     {
         id: CHIPS_KEY.IMPRESSION,
-        text: "Впечатления"
+        title: "Впечатления"
     },
     {
         id: CHIPS_KEY.ROUTES,
-        text: "Маршруты"
+        title: "Маршруты"
     }
 ]
 
